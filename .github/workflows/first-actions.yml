@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   build:
+  #this is self hosted runner
     runs-on: self-hosted
     
     strategy:
